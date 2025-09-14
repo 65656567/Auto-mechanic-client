@@ -29,16 +29,16 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: "your-test-email@example.com", // replace with your email for testing
-      subject: "New Consultation Request",
-      text: `New request from ${name} (${email}) on ${date}`,
+      subject: "New appointment",
+      text: `New appointment from ${name} (${email}) on ${date}`,
     });
 
     // Send confirmation email to user
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
-      subject: "Your Consultation Request",
-      text: `Hi ${name}, thanks for booking a consultation on ${date}. We'll be in touch soon!`,
+      subject: "Your appointment",
+      text: `Hi ${name}, thanks for booking an appointment on ${date}. We'll see you soon!`,
     });
 
     return res.status(200).json({ message: "Emails sent successfully" });
