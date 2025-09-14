@@ -5,14 +5,10 @@ import { Leaf, Award, Users, Clock } from "lucide-react";
 const AboutSection = () => {
   const features = [
     {
-      icon: Leaf,
-      title: "Eco-Friendly",
-      description: "Sustainable landscaping practices that respect Colorado's natural environment."
-    },
-    {
+      
       icon: Award,
-      title: "Expert Craftsmanship",
-      description: "20+ years of experience creating beautiful outdoor spaces in Grand Junction."
+      title: "Low Cost",
+      description: "years of providing high quality, low cost service."
     },
     {
       icon: Users,
@@ -22,7 +18,7 @@ const AboutSection = () => {
     {
       icon: Clock,
       title: "Reliable Service",
-      description: "On-time project completion with attention to every detail."
+      description: "Your safety is our number one priority."
     }
   ];
 
@@ -31,18 +27,17 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            About Lawns 4 Less
+            About Mesa Automotive LLC
           </h2>
           
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            Serving Grand Junction and the surrounding Colorado communities, Lawns 4 Less 
-            has been transforming outdoor spaces for over two decades. We specialize in 
-            complete landscaping solutions, from irrigation systems to custom stone work, 
-            bringing your vision to life with quality craftsmanship and personalized service.
+            Serving Grand Junction and anyone passing through. Mesa Automotive  
+            has been helping hundreds of customers get back on the road for years.
+            Whatever is wrong with your vehicle, your safety and satisfaction is our priority.
           </p>
           
           <Button variant="primary" size="lg">
-            Learn More About Our Process
+            Learn More About Our Services
           </Button>
         </div>
 
