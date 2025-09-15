@@ -1,13 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "@/pages/Home";
-import Contact from "@/pages/Contact";
+import Index from "@/pages/Index"; 
+import NotFound from "@/pages/NotFound";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* Homepage */}
+        <Route path="/" element={<Index />} />
+
+        {/* Catch-all for unknown routes */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
