@@ -1,4 +1,4 @@
-          import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Phone } from "lucide-react";
 
 const Navigation = () => {
@@ -18,7 +18,7 @@ const Navigation = () => {
             Mesa Automotive LLC
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
@@ -40,7 +40,7 @@ const Navigation = () => {
             </div>
           </div>
 
-          {/* Mobile Navigation (just phone number for now) */}
+          {/* Mobile Nav */}
           <div className="md:hidden flex items-center space-x-2">
             <Phone className="h-4 w-4 text-primary" />
             <span className="text-sm font-medium">970-216-8535</span>
@@ -52,4 +52,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
-  
+
+         
