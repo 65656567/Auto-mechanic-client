@@ -45,7 +45,7 @@ const AboutSection = () => {
               >
                 <CardContent className="p-6 text-center">
                   <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                    <Icon className="h-8 w-8 text-primary" />
+                    <Icon className="h-8 w-8 text-black" />
                   </div>
 
                   <h3 className="text-xl font-semibold mb-2 text-foreground">
