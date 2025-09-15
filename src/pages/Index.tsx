@@ -26,7 +26,7 @@ const Index = () => {
               Get Started Today
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Need servicing or repairs? Come down to Mesa Automotive LLC   
+              Need servicing or repairs? Come down to Mesa Automotive,   
               or schedule an appointment below.
             </p>
             
@@ -52,7 +52,7 @@ const Index = () => {
                   <Mail className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                <p className="text-muted-foreground">info@lawns4less.com</p>
+                <p className="text-muted-foreground">info@MesaAutomotive.com</p>
               </div>
             </div>
             {/* Consultation form moved under Contact Section */}
