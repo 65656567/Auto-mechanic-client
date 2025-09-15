@@ -26,8 +26,8 @@ const Index = () => {
               Get Started Today
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Ready to transform your outdoor space? Contact Lawns 4 Less for a free consultation 
-              and discover how we can bring your landscaping vision to life.
+              Need servicing or repairs? Come down to Mesa Automotive LLC   
+              or schedule an appointment below.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -36,7 +36,7 @@ const Index = () => {
                   <Phone className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
-                <p className="text-muted-foreground">970-208-5303</p>
+                <p className="text-muted-foreground">970-216-8535</p>
               </div>
               
               <div className="flex flex-col items-center">
