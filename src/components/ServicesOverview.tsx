@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Wrench, Disc, Wind, Zap, Settings, Engine } from "lucide-react"; 
+import { Wrench, Disc, Wind, Zap, Settings, Car } from "lucide-react"; 
 import { Link } from "react-router-dom";
 
 const ServicesOverview = () => {
@@ -31,7 +31,7 @@ const ServicesOverview = () => {
       description: "Drive train repair and replacement."
     },
     {
-      icon: Engine, // Engine icon
+      icon: Car, // Car for engine repair
       title: "Engine Repair",
       description: "Fixing major and minor engine problems."
     }
@@ -87,5 +87,3 @@ const ServicesOverview = () => {
 };
 
 export default ServicesOverview;
-
-          
