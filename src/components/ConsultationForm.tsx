@@ -60,8 +60,8 @@ export default function ConsultationForm() {
         className="w-full p-2 border rounded"
         required
       />
-      <button type="submit" className="px-4 py-2 bg-green-600 text-white rounded">
-        Schedule Your Consultation
+      <button type="submit" className="px-4 py-2 bg-red-600 text-white rounded">
+        Schedule Appointment
       </button>
       {status && <p>{status}</p>}
     </form>
