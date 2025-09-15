@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="text-2xl font-bold text-primary">
-            Lawns 4 Less
+            Mesa Automotive LLC
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -36,7 +36,7 @@ const Navigation = () => {
             
             <div className="flex items-center space-x-2 text-sm">
               <Phone className="h-4 w-4 text-primary" />
-              <span className="text-foreground font-medium">970-208-5303</span>
+              <span className="text-foreground font-medium">970-216-8535</span>
             </div>
           </div>
 
