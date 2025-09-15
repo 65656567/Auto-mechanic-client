@@ -42,7 +42,7 @@ const Navigation = () => {
 
           {/* Mobile Nav */}
           <div className="md:hidden flex items-center space-x-2">
-            <Phone className="h-4 w-4 text-primary" />
+            <Phone className="h-4 w-4 text-black" />
             <span className="text-sm font-medium">970-216-8535</span>
           </div>
         </div>
