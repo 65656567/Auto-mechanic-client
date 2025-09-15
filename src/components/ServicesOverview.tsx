@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Wrench, Disc, Wind, Zap, Settings, Car } from "lucide-react"; 
-import { Link } from "react-router-dom";
+import { Wrench, Disc, Wind, Zap, Settings, Car } from "lucide-react";
 
 const ServicesOverview = () => {
   const services = [
@@ -72,14 +70,6 @@ const ServicesOverview = () => {
               </Card>
             );
           })}
-        </div>
-
-        <div className="text-center">
-          <Link to="/services">
-            <Button variant="primary" size="lg">
-              View All Services Details
-            </Button>
-          </Link>
         </div>
       </div>
     </section>
