@@ -1,14 +1,13 @@
-import { Button } from "@/components/ui/button";
+         import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Leaf, Award, Users, Clock } from "lucide-react";
+import { Award, Users, Clock } from "lucide-react";
 
 const AboutSection = () => {
   const features = [
     {
-      
       icon: Award,
       title: "Low Cost",
-      description: "years of providing high quality, low cost service."
+      description: "Years of providing high quality, low cost service."
     },
     {
       icon: Users,
@@ -41,20 +40,23 @@ const AboutSection = () => {
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-none bg-card/80 backdrop-blur-sm">
+              <Card
+                key={index}
+                className="group hover:shadow-lg transition-all duration-300 border-none bg-card/80 backdrop-blur-sm"
+              >
                 <CardContent className="p-6 text-center">
                   <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                     <Icon className="h-8 w-8 text-primary" />
                   </div>
-                  
+
                   <h3 className="text-xl font-semibold mb-2 text-foreground">
                     {feature.title}
                   </h3>
-                  
+
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     {feature.description}
                   </p>
@@ -69,3 +71,6 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
+
+                
