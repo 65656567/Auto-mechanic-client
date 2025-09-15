@@ -33,7 +33,7 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="flex flex-col items-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Phone className="h-8 w-8 text-primary" />
+                  <Phone className="h-8 w-8 text-black" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
                 <p className="text-muted-foreground">970-216-8535</p>
@@ -41,7 +41,7 @@ const Index = () => {
               
               <div className="flex flex-col items-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <MapPin className="h-8 w-8 text-primary" />
+                  <MapPin className="h-8 w-8 text-black" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Service Area</h3>
                 <p className="text-muted-foreground">Grand Junction, CO</p>
@@ -49,7 +49,7 @@ const Index = () => {
               
               <div className="flex flex-col items-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Mail className="h-8 w-8 text-primary" />
+                  <Mail className="h-8 w-8 text-black" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Email</h3>
                 <p className="text-muted-foreground">info@MesaAutomotive.com</p>
