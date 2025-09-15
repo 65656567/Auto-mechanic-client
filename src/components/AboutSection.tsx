@@ -1,4 +1,3 @@
-         import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Clock } from "lucide-react";
 
@@ -34,7 +33,7 @@ const AboutSection = () => {
             has been helping hundreds of customers get back on the road for years.
             Whatever is wrong with your vehicle, your safety and satisfaction is our priority.
           </p>
-          
+        </div>         
           
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {features.map((feature, index) => {
@@ -67,6 +66,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
-
-                
