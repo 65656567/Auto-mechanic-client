@@ -1,39 +1,39 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Droplets, TreePine, Gem, Flower, Footprints, Layers } from "lucide-react";
+import { Wrench, Disc, Wind, Zap, Settings, Engine } from "lucide-react"; 
 import { Link } from "react-router-dom";
 
 const ServicesOverview = () => {
   const services = [
     {
-      icon: Droplets,
-      title: "Complete Sprinkler Systems",
-      description: "Professional irrigation installation and maintenance for efficient water management."
+      icon: Settings, // Gear for transmission
+      title: "Transmission Issues",
+      description: "Professional transmission repair and replacement."
     },
     {
-      icon: TreePine,
-      title: "Tree Planting",
-      description: "Expert tree installation including large mature trees for instant landscape impact."
+      icon: Disc, // Brake disc
+      title: "Brakes",
+      description: "Brake assessment and replacement."
     },
     {
-      icon: Gem,
-      title: "Stone Work",
-      description: "Beautiful flagstone patios, retaining walls, and decorative stone features."
+      icon: Wind, // Fan/Airflow for A/C
+      title: "A/C Issues",
+      description: "Fixing A/C systems."
     },
     {
-      icon: Flower,
-      title: "Pebbles & Bushes",
-      description: "Decorative rock gardens and professional shrub planting and design."
+      icon: Zap, // Lightning bolt for electrical
+      title: "Electrical Issues",
+      description: "Expert electrical repair."
     },
     {
-      icon: Footprints,
-      title: "Walkways",
-      description: "Custom pathway design and installation using stone, pavers, or concrete."
+      icon: Wrench, // General tool for drivetrain
+      title: "Drive Train",
+      description: "Drive train repair and replacement."
     },
     {
-      icon: Layers,
-      title: "Sod Installation",
-      description: "Premium sod installation for instant green lawn transformation."
+      icon: Engine, // Engine icon
+      title: "Engine Repair",
+      description: "Fixing major and minor engine problems."
     }
   ];
 
@@ -45,8 +45,8 @@ const ServicesOverview = () => {
             Our Services
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            From complete landscape design to specialized installations, we offer comprehensive 
-            services to transform your outdoor space into something extraordinary.
+            Our expert team is ready to fix whatever problems may arise with your vehicle.
+            From small leaks to major engine problems.
           </p>
         </div>
 
@@ -54,7 +54,10 @@ const ServicesOverview = () => {
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-none bg-card/90 backdrop-blur-sm hover:-translate-y-2">
+              <Card
+                key={index}
+                className="group hover:shadow-xl transition-all duration-300 border-none bg-card/90 backdrop-blur-sm hover:-translate-y-2"
+              >
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                     <Icon className="h-8 w-8 text-primary" />
@@ -84,3 +87,5 @@ const ServicesOverview = () => {
 };
 
 export default ServicesOverview;
+
+          
