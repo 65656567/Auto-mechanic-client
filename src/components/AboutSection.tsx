@@ -35,11 +35,7 @@ const AboutSection = () => {
             Whatever is wrong with your vehicle, your safety and satisfaction is our priority.
           </p>
           
-          <Button variant="primary" size="lg">
-            Learn More About Our Services
-          </Button>
-        </div>
-
+          
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {features.map((feature, index) => {
             const Icon = feature.icon;
