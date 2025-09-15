@@ -25,7 +25,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#form"
-              className="group inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+              className="group inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-green-700 transition"
             >
               Schedule Service
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
